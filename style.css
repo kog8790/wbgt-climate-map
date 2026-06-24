@@ -223,9 +223,12 @@ body {
         width: 32vw !important;
         max-width: 32vw !important;
         min-width: 0 !important;
+
         padding: 2.5vw !important;
         left: 3vw !important;
-        bottom: 42vh !important;
+
+        bottom: 39vh !important;
+
         border-radius: 2vw !important;
     }
 
