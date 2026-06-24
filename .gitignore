@@ -1,0 +1,5 @@
+.DS_Store
+county_misery_inputs_5yr.parquet
+cb_2024_us_county_20m.*
+tl_2025_us_county.*
+app copy.js

@@ -1,0 +1,190 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+#map {
+    width: calc(100% - 360px);
+    height: 100vh;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 360px;
+    height: 100vh;
+    overflow-y: auto;
+    background: #ffffff;
+    border-left: 1px solid #d0d0d0;
+    z-index: 1000;
+}
+
+#sidebar-content {
+    padding: 22px;
+}
+
+#sidebar h1,
+#sidebar h2 {
+    margin-top: 0;
+}
+
+#sidebar h3 {
+    margin-bottom: 8px;
+}
+
+.metric {
+    margin: 12px 0;
+}
+
+.metric-label {
+    font-weight: 700;
+}
+
+.explainer {
+    margin-top: 18px;
+    padding: 14px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    line-height: 1.4;
+}
+
+.legend {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: 1000;
+
+    background: #ffffff;
+    padding: 14px 16px;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+    font-size: 15px;
+}
+
+.legend h3 {
+    margin: 0 0 10px 0;
+}
+
+.legend div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 6px 0;
+}
+
+.legend .swatch {
+    display: inline-block !important;
+    flex: 0 0 22px;
+    width: 22px !important;
+    height: 22px !important;
+    min-width: 22px;
+    min-height: 22px;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+
+.legend .no-data {
+    background: #ffffff;
+}
+
+.legend .dark-blue {
+    background: #08306b;
+}
+
+.legend .light-blue {
+    background: #6baed6;
+}
+
+.legend .green {
+    background: #31a354;
+}
+
+.legend .orange {
+    background: #fdae61;
+}
+
+.legend .light-red {
+    background: #f46d43;
+}
+
+.legend .dark-red {
+    background: #a50026;
+}
+
+.legend-row {
+    display: grid;
+    grid-template-columns: 24px auto;
+    align-items: center;
+    column-gap: 12px;
+    margin: 8px 0;
+}
+
+.legend-row span:first-child {
+    width: 22px;
+    height: 22px;
+    border: 1px solid rgba(0,0,0,0.35);
+    border-radius: 4px;
+}
+
+#legend h3 {
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.swatch {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    vertical-align: middle;
+    border: 1px solid rgba(0,0,0,0.25);
+}
+
+.no-data {
+    background: #ffffff;
+}
+
+.dark-blue {
+    background: #08306b;
+}
+
+.light-blue {
+    background: #6baed6;
+}
+
+.green {
+    background: #31a354;
+}
+
+.warning {
+    background: #fff3cd;
+    border: 1px solid #e0c36a;
+}
+
+.orange {
+    background: #fdae61;
+}
+
+.light-red {
+    background: #f46d43;
+}
+
+.dark-red {
+    background: #a50026;
+}
+
+.leaflet-tooltip {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.county-tooltip {
+    background: #ffffff;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 6px 8px;
+}
