@@ -52,7 +52,7 @@ body {
     line-height: 1.4;
 }
 
-.legend {
+#legend {
     position: absolute;
     left: 20px;
     bottom: 20px;
@@ -66,18 +66,18 @@ body {
     font-size: 15px;
 }
 
-.legend h3 {
+#legend h3 {
     margin: 0 0 10px 0;
 }
 
-.legend div {
+#legend div {
     display: flex;
     align-items: center;
     gap: 8px;
     margin: 6px 0;
 }
 
-.legend .swatch {
+#legend .swatch {
     display: inline-block !important;
     flex: 0 0 22px;
     width: 22px !important;
@@ -87,35 +87,35 @@ body {
     border: 1px solid rgba(0,0,0,0.4);
 }
 
-.legend .no-data {
+#legend .no-data {
     background: #ffffff;
 }
 
-.legend .dark-blue {
+#legend .dark-blue {
     background: #08306b;
 }
 
-.legend .light-blue {
+#legend .light-blue {
     background: #6baed6;
 }
 
-.legend .green {
+#legend .green {
     background: #31a354;
 }
 
-.legend .orange {
+#legend .orange {
     background: #fdae61;
 }
 
-.legend .light-red {
+#legend .light-red {
     background: #f46d43;
 }
 
-.legend .dark-red {
+#legend .dark-red {
     background: #a50026;
 }
 
-.legend-row {
+#legend-row {
     display: grid;
     grid-template-columns: 24px auto;
     align-items: center;
@@ -123,7 +123,7 @@ body {
     margin: 8px 0;
 }
 
-.legend-row span:first-child {
+#legend-row span:first-child {
     width: 22px;
     height: 22px;
     border: 1px solid rgba(0,0,0,0.35);
