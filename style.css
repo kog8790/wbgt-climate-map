@@ -220,9 +220,49 @@ body {
     }
 
     #legend {
-        left: 12px !important;
-        bottom: 41vh !important;
-        transform: scale(0.85);
-        transform-origin: bottom left;
+
+        left: 10px !important;
+
+        bottom: 42vh !important;
+
+        width: 42vw;
+
+        max-width: 180px;
+
+        padding: 10px 12px;
+
     }
+
+    #legend h3 {
+
+        font-size: 18px;
+
+        margin-bottom: 10px;
+
+    }
+
+    .legend-row {
+
+        grid-template-columns: 18px auto !important;
+
+        column-gap: 8px !important;
+
+        margin: 5px 0 !important;
+
+    }
+
+    .legend-row span:first-child {
+
+        width: 16px !important;
+
+        height: 16px !important;
+
+    }
+
+    .legend-row span:last-child {
+
+        font-size: 13px;
+
+    }
+
 }
